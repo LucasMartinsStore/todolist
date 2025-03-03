@@ -4,7 +4,7 @@ import { By } from '@angular/platform-browser';
 import { HeaderComponent } from './shared/components/header/header.component';
 
 import exp from 'node:constants';
-import { MockHeaderComponent } from '../tests/mocks/mock-header.component';
+import { MockHeaderComponent } from '@tests/mocks/mock-header.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
