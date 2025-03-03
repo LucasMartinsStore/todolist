@@ -3,7 +3,6 @@ import { HeaderComponent } from './header.component';
 import { By } from '@angular/platform-browser';
 
 describe('HeaderComponent', () => {
-  let component: HeaderComponent;
   let fixture: ComponentFixture<HeaderComponent>;
 
   beforeEach(async () => {
